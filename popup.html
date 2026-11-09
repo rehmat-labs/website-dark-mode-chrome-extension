@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Website Dark Mode</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon-48.png" alt="" width="32" height="32">
+    <div>
+      <h1>Website Dark Mode</h1>
+      <p class="sub">Easy on the eyes, everywhere</p>
+    </div>
+  </header>
+
+  <section class="card" id="siteCard">
+    <div class="row">
+      <div class="label">
+        <span class="title">This site</span>
+        <span class="host" id="host">—</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="siteToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <p class="status" id="status">Checking…</p>
+    <button class="link" id="resetSite" hidden>Let Auto mode decide for this site</button>
+  </section>
+
+  <section class="card">
+    <div class="row">
+      <div class="label">
+        <span class="title">Auto dark mode</span>
+        <span class="hint">Darken every light website automatically. Sites that are already dark are left alone.</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="autoToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </section>
+
+  <footer>Shortcut: <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> toggles the current site</footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
