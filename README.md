@@ -2,7 +2,7 @@
   <img src="icons/icon-128.png" width="96" height="96" alt="Website Dark Mode icon">
 </p>
 
-<h1 align="center">Website Dark Mode</h1>
+<h1 align="center">Website Dark Mode – Chrome Extension</h1>
 
 <p align="center">
   <b>Free dark mode Chrome extension for any website, with Auto dark mode.</b><br>
