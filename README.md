@@ -38,13 +38,13 @@ Website Dark Mode is a lightweight browser extension that turns bright, white we
 
 The extension is installed as an unpacked extension (Chrome Web Store listing coming later).
 
-1. [Download this repository as a ZIP](https://github.com/rehmat-labs/website-dark-mode/archive/refs/heads/main.zip) and unzip it, or clone it:
+1. [Download this repository as a ZIP](https://github.com/rehmat-labs/website-dark-mode-chrome-extension/archive/refs/heads/main.zip) and unzip it, or clone it:
    ```bash
-   git clone https://github.com/rehmat-labs/website-dark-mode.git
+   git clone https://github.com/rehmat-labs/website-dark-mode-chrome-extension.git
    ```
 2. Open `chrome://extensions` in Chrome (or `edge://extensions` in Microsoft Edge, `brave://extensions` in Brave).
 3. Turn on **Developer mode** (top-right toggle).
-4. Click **Load unpacked** and select the unzipped `website-dark-mode` folder.
+4. Click **Load unpacked** and select the unzipped folder.
 5. Pin the extension from the puzzle-piece menu so the moon icon is always visible.
 
 ## How to use
@@ -101,7 +101,7 @@ Browsers don't allow extensions on internal pages such as `chrome://` pages, the
 
 ## Contributing
 
-Found a website that looks wrong in dark mode? [Open an issue](https://github.com/rehmat-labs/website-dark-mode/issues) with the URL and a screenshot. Pull requests are welcome.
+Found a website that looks wrong in dark mode? [Open an issue](https://github.com/rehmat-labs/website-dark-mode-chrome-extension/issues) with the URL and a screenshot. Pull requests are welcome.
 
 ## Author
 

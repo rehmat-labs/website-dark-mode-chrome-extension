@@ -4,7 +4,7 @@
   "short_name": "Dark Mode",
   "version": "2.0.0",
   "author": "Rehmat Ullah",
-  "homepage_url": "https://github.com/rehmat-labs/website-dark-mode",
+  "homepage_url": "https://github.com/rehmat-labs/website-dark-mode-chrome-extension",
   "description": "Dark mode for any website — turn it on per site with one click, or let Auto mode darken every light website for you. Only changes colors; fonts and sizes stay the same.",
   "permissions": ["scripting", "activeTab", "storage"],
   "host_permissions": ["<all_urls>"],
